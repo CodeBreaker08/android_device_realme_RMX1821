@@ -181,6 +181,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	CarrierConfigOverlayRMX1821 \
 	FrameworksResOverlayRMX1821 \
+	SettingsProviderOverlayRMX1821 \
 	SystemUIOverlayRMX1821 \
 	TelephonyOverlayRMX1821 \
 	TetheringConfigOverlayRMX1821
