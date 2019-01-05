@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
 	FrameworksResOverlayRMX1821 \
+	SystemUIOverlayRMX1821 \
 	TetheringConfigOverlayRMX1821
 
 # Perf
