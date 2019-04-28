@@ -103,6 +103,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6771
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
