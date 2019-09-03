@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from RMX1821 device makefile
 $(call inherit-product, device/realme/RMX1821/device.mk)
 
+# LineageOS Stuff.
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
