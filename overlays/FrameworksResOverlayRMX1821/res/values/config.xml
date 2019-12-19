@@ -146,6 +146,10 @@
         <item>0:2:15</item>
     </string-array>
 
+    <!-- Whether to post reset runnable for all clients. Needed for some older
+         vendor fingerprint HAL implementations. -->
+    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
+
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
          config_screenBrightnessMaximumNits, the display brightness is defined as the measured
