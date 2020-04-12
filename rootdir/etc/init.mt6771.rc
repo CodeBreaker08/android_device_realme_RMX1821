@@ -118,6 +118,10 @@ on fs
    mount iso9660 loop@/vendor/etc/DRIVER.ISO /mnt/cd-rom ro
    #endif/*VENDOR_EDIT*/
 
+on fs
+    mount_all /vendor/etc/fstab.mt6771 --early
+    mount_all /vendor/etc/fstab.mt6771 --late
+
 on post-fs
     write /proc/bootprof "INIT:post-fs"
 
