@@ -89,6 +89,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.drm@1.3.vendor \
 	android.hardware.drm-service.clearkey
 
+# DT2W
+PRODUCT_PACKAGES += \
+        DT2W-Service-RMX1821
+
 # Fingerprint
 PRODUCT_PACKAGES += \
 	android.hardware.biometrics.fingerprint@2.1-service.RMX1821
