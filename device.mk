@@ -52,6 +52,13 @@ PRODUCT_PACKAGES += \
 	android.hardware.health@2.1-impl.recovery \
 	android.hardware.health@2.1-service
 
+# HIDL
+PRODUCT_PACKAGES += \
+	libhidltransport \
+	libhidltransport.vendor \
+	libhwbinder \
+	libhwbinder.vendor \
+
 # Input Configs
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/input/idc/AVRCP.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/AVRCP.idc \
