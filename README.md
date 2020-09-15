@@ -20,3 +20,5 @@ Realme 3 (RMX1821, RMX1825, RMX1822) & Realme 3i (RMX1823, RMX1827) are mid-rang
 | Rear camera 2           | 2 MP, (depth)                                            | 2 MP, (depth)                                            |
 | Front camera            | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm                     | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm                     |
 | Image                   | ![Realme 3](https://fdn2.gsmarena.com/vv/pics/realme/realme-3-2.jpg ("Realme 3/3i")) | ![Realme 3i](https://fdn2.gsmarena.com/vv/pics/realme/realme-3-diamond-red.jpg) |
+
+Applying [patches](https://github.com/RMX1821-devs/patches/tree/lineage-20.0) in their respective directories of rom source is mandatory

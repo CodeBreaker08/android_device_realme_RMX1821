@@ -129,3 +129,6 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/manifests/compatibility_matrix.xm
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_RMX1821
+
+# Append VBMeta to Boot Image
+MAIN_VBMETA_IN_BOOT := yes
