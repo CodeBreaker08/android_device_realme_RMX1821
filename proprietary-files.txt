@@ -1382,10 +1382,6 @@ vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/libOpenCL.so
 
-# Health
-vendor/bin/hw/android.hardware.health@2.0-service
-vendor/etc/init/android.hardware.health@2.0-service.rc
-
 # IMS
 bin/vtservice
 etc/init/init.vtservice.rc

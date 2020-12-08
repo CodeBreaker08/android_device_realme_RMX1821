@@ -34,6 +34,12 @@ PRODUCT_PACKAGES += \
 	android.hardware.gatekeeper@1.0-service \
 	android.hardware.gatekeeper@1.0-impl
 
+# Health
+PRODUCT_PACKAGES += \
+	android.hardware.health@2.1-impl \
+	android.hardware.health@2.1-impl.recovery \
+	android.hardware.health@2.1-service
+
 # Input Configs
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/input/idc/AVRCP.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/AVRCP.idc \
