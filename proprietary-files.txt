@@ -2089,7 +2089,6 @@ vendor/bin/netcat
 vendor/bin/nproc
 vendor/bin/nsenter
 vendor/bin/ppl_agent
-vendor/bin/self-init
 vendor/bin/unlink
 vendor/bin/unshare
 vendor/bin/uuidgen
