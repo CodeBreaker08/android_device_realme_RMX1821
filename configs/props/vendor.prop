@@ -77,7 +77,6 @@ drm.service.enabled=true
 ro.vendor.mtk_widevine_drm_l3_support=1
 
 # File-System
-ro.vendor.mtk_f2fs_enable=0
 ro.vendor.mtk_emmc_support=1
 
 # FRP
