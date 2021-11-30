@@ -97,7 +97,6 @@ TARGET_COPY_OUT_SYSTEM_EXT := system/system_ext
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6771
-TARGET_BOARD_PLATFORM_GPU := Mali-G72 MP3
 
 # Props
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
