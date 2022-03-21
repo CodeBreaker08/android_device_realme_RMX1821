@@ -118,6 +118,7 @@ ro.lmk.use_minfree_levels=true
 
 # Media
 vendor.mtk.vdec.waitkeyframeforplay=7
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Mediatek
 ro.vendor.mediatek.platform=MT6771
