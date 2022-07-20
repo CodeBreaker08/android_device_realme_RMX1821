@@ -1,6 +1,7 @@
 # Audio
 ro.audio.silent=0
 ro.camera.sound.forced=0
+ro.config.vc_call_vol_steps=7
 
 # IMS 
 persist.dbg.volte_avail_ovr=1
