@@ -1,7 +1,7 @@
 # Audio
 ro.audio.silent=0
 ro.camera.sound.forced=0
-ro.config.vc_call_vol_steps=7
+ro.config.vc_call_vol_steps=15
 
 # Dex
 dalvik.vm.dex2oat64.enabled=true
