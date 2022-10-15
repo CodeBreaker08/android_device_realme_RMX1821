@@ -125,6 +125,7 @@ void set_avoid_gfxaccel_config() {
 }
 
 void vendor_load_properties() {
+#ifndef __ANDROID_RECOVERY__
     auto [device, model] = get_device();
 
     set_ro_build_prop("device", device);
@@ -137,4 +138,5 @@ void vendor_load_properties() {
 
     // config_avoidGfxAccel
     set_avoid_gfxaccel_config();
+#endif
 }
