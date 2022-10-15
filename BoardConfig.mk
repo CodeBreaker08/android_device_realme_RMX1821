@@ -28,6 +28,11 @@ TARGET_CPU_ABI_LIST_32_BIT := armeabi-v7a,armeabi
 
 TARGET_USES_64_BIT_BINDER := true
 
+# AVB (Android Verified Boot)
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := mt6771
 TARGET_NO_BOOTLOADER := true
