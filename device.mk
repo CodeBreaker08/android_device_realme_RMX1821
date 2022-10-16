@@ -58,6 +58,12 @@ PRODUCT_PACKAGES += \
 	multi_init.rc \
 	ueventd.rc
 
+# Seccomp Policy
+PRODUCT_COPY_FILES += \
+	$(DEVICE_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+	$(DEVICE_PATH)/configs/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+	$(DEVICE_PATH)/configs/seccomp/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
 	$(DEVICE_PATH)
