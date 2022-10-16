@@ -96,3 +96,7 @@ TARGET_BOARD_PLATFORM_GPU := Mali-G72 MP3
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6771
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
