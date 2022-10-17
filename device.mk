@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	android.hardware.light@2.0-service.RMX1821
 
+# Overlays
+PRODUCT_PACKAGES += \
+	TetheringConfigOverlayRMX1821
+
 # Permissions
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \

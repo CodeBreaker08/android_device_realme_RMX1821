@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "TetheringConfigOverlayRMX1821",
+    theme: "TetheringConfigOverlay",
+    sdk_version: "current",
+    product_specific: true,
+}
