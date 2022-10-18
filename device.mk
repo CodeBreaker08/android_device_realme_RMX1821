@@ -124,7 +124,6 @@ PRODUCT_PACKAGES += \
 	factory_init.rc \
 	fstab.enableswap \
 	fstab.mt6771 \
-	init.aee.rc \
 	init.ago.rc \
 	init.connectivity.rc \
 	init.modem.rc \

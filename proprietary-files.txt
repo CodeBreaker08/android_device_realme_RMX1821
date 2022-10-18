@@ -2062,11 +2062,6 @@ vendor/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so
 vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so
 
 # Misc
-vendor/bin/aeev
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_archivev
-vendor/bin/aee_dumpstatev
 vendor/bin/autobt
 vendor/bin/bc
 vendor/bin/climax
@@ -2101,7 +2096,6 @@ vendor/bin/uuidgen
 vendor/bin/watch
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/a2dp_in_audio_policy_configuration.xml
-vendor/etc/aee-config
 vendor/etc/asd/class.tflite
 vendor/etc/asd/detect.tflite
 vendor/etc/aurisys_config.xml
@@ -2109,8 +2103,6 @@ vendor/etc/DRIVER.ISO
 vendor/etc/factory.ini
 vendor/etc/file112.wav
 vendor/etc/fstb.cfg
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/ppl_agent.rc

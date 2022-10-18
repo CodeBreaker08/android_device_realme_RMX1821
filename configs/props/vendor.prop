@@ -107,7 +107,6 @@ vendor.mtk.vdec.waitkeyframeforplay=7
 
 # Mediatek
 ro.vendor.mediatek.platform=MT6771
-ro.vendor.have_aeev_feature=1
 ro.vendor.mtk_exchange_support=1
 
 # Neural Networks
