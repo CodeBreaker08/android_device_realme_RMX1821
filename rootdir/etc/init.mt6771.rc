@@ -3,7 +3,6 @@
 import /vendor/etc/init/hw/init.connectivity.rc
 import /vendor/etc/init/hw/init.mt6771.usb.rc
 import /vendor/etc/init/hw/init.project.rc
-import /FWUpgradeInit.rc
 import /vendor/etc/init/hw/init.volte.rc
 import /vendor/etc/init/hw/init.mal.rc
 import /vendor/etc/init/hw/init.sensor_1_0.rc
@@ -12,13 +11,6 @@ import /vendor/etc/init/hw/init.sensor_1_0.rc
 #ifdef VENDOR_EDIT
 #Wenyi.Wang@PSW.AD.Input.Motor.1589153, 2019/09/21,add for init.oppo.vendor.motor.rc
 import /vendor/etc/init/hw/init.oppo.vendor.motor.rc
-#endif /*VENDOR_EDIT*/
-#ifdef VENDOR_EDIT
-#Long.Liu@BSP.Fingerprint.Basic 2018/10/16 Add for fingerprint
-import /init.oppo.fingerprints.rc
-import /init.oppo.face.rc
-import /init.oppo.seccommon.rc
-#endif
 
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
 import /vendor/etc/init/hw/init.modem.rc
@@ -1129,25 +1121,6 @@ service osi /system/bin/osi
     disabled
     oneshot
     #seclabel u:r:osi:s0
-
-#ifdef VENDOR_EDIT
-#zhoumingjun@swdp2.shanghai 2018/07/19, Add for run the init.oppo.kneuron.sh on property
-service kneuron_context /system/bin/sh /system/etc/init.oppo.kneuron.sh
-    user root
-    disabled
-    oneshot
-    seclabel u:r:rutilsdaemon:s0
-
-on property:persist.sys.enable.kneuron=*
-    start kneuron_context
-#endif /* VENDOR_EDIT */
-
-#ifdef VENDOR_EDIT
-#huangliang@swdp2.shanghai, 2018/10/11, Add for kneuron and elsa
-on post-fs-data
-    mkdir /data/elsa 0700 system system
-    mkdir /data/kneuron 0700 system system
-#endif /* COLOROS_EDIT */
 
 #ifdef VENDOR_EDIT
 #Yadong.Hu@PSW.CN.WiFi.Connect.associated.1065680, 2017/08/15,
