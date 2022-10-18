@@ -103,14 +103,6 @@ on charger
 
     start light-hal-2-0
     start health-hal-2-0
-#ifdef VENDOR_EDIT
-#huacai.zhou@bsp.drv modify for setting zram size according to totalram size
-service swap_enable_init /system/bin/sh /vendor/etc/swap_enable.sh
-    user root
-    disabled
-    oneshot
-    seclabel u:r:rutilsdaemon:s0
-#endif
 
 on fs
     write /proc/bootprof "INIT:Mount_START"
@@ -127,13 +119,7 @@ on fs
     write /proc/bootprof "INIT:Mount_END"
     write /proc/sys/vm/swappiness 160
     write /sys/kernel/mm/swap/vma_ra_enabled false
-#ifdef VENDOR_EDIT
-#huacai.zhou@bsp.drv modify for setting zram size according to totalram size
-    write /proc/bootprof "INIT:swap_enable.sh add +x"
-    chmod +x /vendor/etc/swap_enable.sh
-    write /proc/bootprof "INIT:swap_enable_init"
-    start swap_enable_init
-#endif  
+    swapon_all /vendor/etc/fstab.mt6771
 
 on fs
    #ifndef VENDOR_EDIT

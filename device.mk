@@ -122,7 +122,6 @@ PRODUCT_PACKAGES += \
 	factory_init.connectivity.rc \
 	factory_init.project.rc \
 	factory_init.rc \
-	fstab.enableswap \
 	fstab.mt6771 \
 	init.ago.rc \
 	init.connectivity.rc \
