@@ -10,7 +10,15 @@ $(call inherit-product, vendor/realme/RMX1821/RMX1821-vendor.mk)
 # Audio
 PRODUCT_PACKAGES += \
 	android.hardware.audio.effect@5.0-impl \
-	android.hardware.soundtrigger@2.2-impl
+	android.hardware.soundtrigger@2.2-impl \
+	android.hardware.audio@4.0 \
+	audio.a2dp.default \
+	audio.bluetooth.default \
+	audio.r_submix.default \
+	audio.usb.default \
+	libaudiopreprocessing \
+	libtinycompress \
+	libtinyxml
 
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
