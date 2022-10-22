@@ -2055,7 +2055,6 @@ vendor/etc/asd/detect.tflite
 vendor/etc/aurisys_config.xml
 vendor/etc/DRIVER.ISO
 vendor/etc/factory.ini
-vendor/etc/file112.wav
 vendor/etc/fstb.cfg
 vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/loghidlvendorservice.rc
@@ -2066,7 +2065,6 @@ vendor/etc/partition_permission.sh
 vendor/etc/pdc.json
 vendor/etc/power_whitelist_cfg.xml
 vendor/etc/self_init_config/common/self_init_config.xml
-vendor/etc/spk.wav
 vendor/etc/throttle.sh
 vendor/lib/android.frameworks.faceservice@1.0.so
 vendor/lib/gc13c33_mipi_raw_tuning.so
