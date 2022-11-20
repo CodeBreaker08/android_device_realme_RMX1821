@@ -203,3 +203,6 @@ persist.vendor.connsys.patch.version=-1
 persist.vendor.connsys.dynamic.dump=0
 vendor.connsys.driver.ready=no
 ro.vendor.wlan.gen=gen3
+
+# Zygote
+zygote.critical_window.minute=10
