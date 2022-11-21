@@ -159,7 +159,7 @@ PRODUCT_PACKAGES += \
 	meta_init.project.rc \
 	meta_init.rc \
 	multi_init.rc \
-	ueventd.rc
+	ueventd.mt6771.rc
 
 # Seccomp Policy
 PRODUCT_COPY_FILES += \
