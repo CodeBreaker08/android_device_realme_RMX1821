@@ -43,6 +43,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Build
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 # Kernel, DTBO and DTB
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
