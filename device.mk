@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	libvulkan
 
+# FSTAB
+PRODUCT_COPY_FILES += \
+	$(DEVICE_PATH)/rootdir/etc/fstab.mt6771:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6771
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
 	android.hardware.gatekeeper@1.0-service \
