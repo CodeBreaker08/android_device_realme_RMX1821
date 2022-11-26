@@ -9,6 +9,7 @@ $(call inherit-product, vendor/realme/RMX1821/RMX1821-vendor.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
+	android.hardware.audio@5.0 \
 	android.hardware.audio.effect@5.0-impl \
 	android.hardware.soundtrigger@2.2-impl \
 	android.hardware.audio@4.0 \
