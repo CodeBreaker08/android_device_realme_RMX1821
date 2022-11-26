@@ -61,6 +61,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	libvulkan
 
+# DRM
+PRODUCT_PACKAGES += \
+	android.hardware.drm@1.3-service.clearkey
+
 # FSTAB
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/rootdir/etc/fstab.mt6771:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6771
