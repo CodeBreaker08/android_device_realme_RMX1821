@@ -110,6 +110,10 @@ PRODUCT_PACKAGES += \
 	libkeymaster3.vendor \
 	libkeymaster3support.vendor
 
+# Libxml2
+PRODUCT_PACKAGES += \
+	libxml2.vendor
+
 # Light
 PRODUCT_PACKAGES += \
 	android.hardware.light@2.0-service.RMX1821
