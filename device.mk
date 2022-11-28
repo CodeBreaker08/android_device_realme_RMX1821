@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.gatekeeper@1.0-service \
 	android.hardware.gatekeeper@1.0-impl
 
+# GPS
+PRODUCT_PACKAGES += \
+	libcurl
+
 # Health
 PRODUCT_PACKAGES += \
 	android.hardware.health@2.1-impl \
