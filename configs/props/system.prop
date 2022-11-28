@@ -20,10 +20,6 @@ ro.mtk_perf_response_time=1
 sys.ipo.pwrdncap=2
 sys.ipo.disable=1
 
-# RIL
-vendor.rild.libargs=-d /dev/ttyC0
-vendor.rild.libpath=mtk-ril.so
-
 # USB
 ro.sys.usb.bicr=no
 ro.sys.usb.charging.only=yes
