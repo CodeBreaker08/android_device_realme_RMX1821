@@ -72,7 +72,8 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-	libcurl
+	libcurl \
+	libandroid_net
 
 # Health
 PRODUCT_PACKAGES += \
