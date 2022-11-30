@@ -1457,7 +1457,6 @@ vendor/lib64/librgbwlightsensor.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.mt6771.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib64/hw/sound_trigger.primary.mt6771.so
 
 # Media
