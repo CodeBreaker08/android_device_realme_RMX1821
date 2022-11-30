@@ -2085,7 +2085,6 @@ vendor/lib/libstagefright_soft_vpxdec.so
 vendor/lib/libstagefright_soft_vpxenc.so
 vendor/lib/libstfaceunlockocl.so
 vendor/lib/libSwJpgCodec.so
-vendor/lib/libtextclassifier_hash.so
 vendor/lib/libtflite_mtk.so
 vendor/lib/libtflite_mtk_static.so
 vendor/lib/libvorbisidec.so
@@ -2146,7 +2145,6 @@ vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libstface_fd_api.so
-vendor/lib64/libtextclassifier_hash.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtflite_mtk_static.so
 vendor/lib64/libvcodec_utility.so

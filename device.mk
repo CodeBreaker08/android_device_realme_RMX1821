@@ -248,6 +248,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
 	$(DEVICE_PATH)
 
+# Text classifier
+PRODUCT_PACKAGES += \
+    libtextclassifier_hash.vendor
+
 # Thermal
 PRODUCT_PACKAGES += \
 	android.hardware.thermal@1.0-impl \
