@@ -112,6 +112,7 @@ ro.vendor.mtk_exchange_support=1
 # Neural Networks
 ro.vendor.mtk_nn.option=E,F,Z
 ro.vendor.mtk_nn_quant_preferred=1
+ro.vendor.mtk_nn_support=1
 
 # OpenGL
 ro.hardware.egl=meow
