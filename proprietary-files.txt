@@ -1235,10 +1235,8 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 
 # Fingerprint
-vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service
-vendor/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc
 vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc
 vendor/lib/hw/fingerprint.silead.default.so
@@ -1246,7 +1244,6 @@ vendor/lib/libsl_fp_algo.so
 vendor/lib/libsl_fp_impl.so
 vendor/lib/libsl_fp_nosec.so
 vendor/lib/libsl_fp_prepro.so
-vendor/lib/vendor.oppo.hardware.biometrics.face@1.0.so
 vendor/lib64/android.frameworks.fingerprintservice@1.0.so
 vendor/lib64/hw/fingerprint.silead.default.so
 vendor/lib64/libsl_fp_algo.so
@@ -1670,25 +1667,14 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 vendor/bin/hw/vendor.oppo.engnative.engineer@1.0-service
 vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service
 vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service
-vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service
-vendor/bin/hw/vendor.oppo.hardware.oiface@1.0-service
 vendor/etc/init/vendor.oppo.engnative.engineer@1.0-service.rc
 vendor/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc
 vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc
-vendor/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc
-vendor/etc/init/vendor.oppo.hardware.oiface@1.0-service.rc
-vendor/etc/media_codecs_oppo.xml
-vendor/etc/media_codecs_oppo_performance.xml
-vendor/etc/media_codecs_oppo_video.xml
 vendor/etc/permissions/vendor-oppo-engnative-engineer.xml
 vendor/etc/permissions/vendor-oppo-engnative-engsensor.xml
 vendor/etc/permissions/vendor-oppo-hardware.cryptoeng.xml
-vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so
-vendor/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so
 vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
 vendor/lib/vendor.oppo.hardware.hypnus@1.0.so
-vendor/lib/vendor.oppo.hardware.ktv@1.0.so
-vendor/lib/vendor.oppo.hardware.oiface@1.0.so
 vendor/lib64/libOPPORectify.so
 vendor/lib64/liboppo_aisd.so
 vendor/lib64/liboppo_arcSoftBokehEngine.so
@@ -1699,8 +1685,6 @@ vendor/lib64/vendor.oppo.engnative.transfer@1.0.so
 vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
 vendor/lib64/vendor.oppo.hardware.cryptoeng@1.0.so
 vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
-vendor/lib64/vendor.oppo.hardware.ktv@1.0.so
-vendor/lib64/vendor.oppo.hardware.oiface@1.0.so
 vendor/oppo/ck.fs
 vendor/oppo/recovery_rootcheck
 
