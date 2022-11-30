@@ -14,3 +14,5 @@ librftoolkit.so
 libnativehelpers.so
 libOppoAlgoProcess.so
 libMegviiHumBokeh-mtk.so
+libarmnn_ndk.mtk.so
+libcmdl_ndk.mtk.so

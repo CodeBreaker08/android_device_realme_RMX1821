@@ -1616,19 +1616,25 @@ vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pplagent@1.0.so
 
-# Neural-networks
-vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-apunn
-vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn
-vendor/etc/init/android.hardware.neuralnetworks@1.1-service-apunn.rc
-vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc
-vendor/lib/libneuroeara.so
-vendor/lib/libneuropilot_hal_utils.so
-vendor/lib/libneuropilot_jni.so
-vendor/lib64/libarmnn.so
-vendor/lib64/libcmdl.so
-vendor/lib64/libneuroeara.so
-vendor/lib64/libneuropilot_hal_utils.so
-vendor/lib64/libneuropilot_jni.so
+# Neural-networks - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2111301522:user/release-keys
+vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron|b6ece121f760b6d0574f3f6996b70028328604b5
+vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc|ebdc6355d6d4b243161f536aeafb9392373bde11
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml|2588438a71de5484d0fd8e862c554a2d256aca82
+vendor/lib/libarmnn_ndk.mtk.so|264e74895a7261f0795e8d304016f45133df4906
+vendor/lib/libcmdl_ndk.mtk.so|28af41508eb702223f5bc7a767403e2dd3413176
+vendor/lib/libneuroeara.so|746b60e396520ddb788c8284d9778099a5ef8a86
+vendor/lib/libneuropilot_hal_utils.so|79888a4d0202ac7ac8552437726edf7e2c31772d
+vendor/lib/libneuropilot_jni_R.so|3a5321fe4efe1763a7427e0e031de700d914c018
+vendor/lib64/libarmnn.so|3903dc96be2aaa6767518dd670d96dde94cd0bf8
+vendor/lib64/libarmnn_ndk.mtk.so|c1cb1964812b9d56f8b063be9a30aba0d13db7d4
+vendor/lib64/libcmdl.so|861fb9c6d94980de5a58d73e404cd88567421920
+vendor/lib64/libcmdl_ndk.mtk.so|44debcccf39935d2750422f97c6b70618bd10dff
+vendor/lib64/libneuroeara.so|8f34993802344f6a3106206ef72cac838e1c093b
+vendor/lib64/libneuron_adapter.so|f2a186126be1df6390d056067319f7b659b5e1fb
+vendor/lib64/libneuron_platform.so|570604669de65d4f1ac0a39a45bc8cb263fdf04f
+vendor/lib64/libneuron_runtime.so|56b0c01b6479a89c4d606f33fb54c9481ecd5991
+vendor/lib64/libneuropilot_hal_utils.so|76dccfc3139109b18251716815956d960691f566
+vendor/lib64/libneuropilot_jni_R.so|f0768bad5b09c6f9d8847f36bcc74700dc52b9ad
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
