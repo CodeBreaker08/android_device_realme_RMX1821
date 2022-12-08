@@ -59,6 +59,9 @@ function blob_fixup {
             "${PATCHELF}" --replace-needed "libxml2.so" "libxml2-v29.so" "${2}"
             "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
             ;;
+        vendor/lib64/libmtkcam_stdutils.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v29.so" "${2}"
+            ;;
     esac
 }
 

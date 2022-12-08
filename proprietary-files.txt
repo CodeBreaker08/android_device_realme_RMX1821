@@ -1600,7 +1600,7 @@ vendor/lib64/libmtkcam_pipelinepolicy_factory.so
 vendor/lib64/libmtkcam_pipeline_fbm.so
 vendor/lib64/libmtkcam_prerelease.so
 vendor/lib64/libmtkcam_rsc.so
-vendor/lib64/libmtkcam_stdutils.so
+vendor/lib64/libmtkcam_stdutils.so|afe9cd4b55dcfafa15360080dd89317135490549
 vendor/lib64/libmtkcam_streamutils.so
 vendor/lib64/libmtkcam_synchelper.so
 vendor/lib64/libmtkcam_sysutils.so
