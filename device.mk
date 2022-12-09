@@ -15,8 +15,7 @@ PRODUCT_PACKAGES += \
 	android.hardware.audio@2.0.vendor \
 	android.hardware.audio@4.0.vendor \
 	android.hardware.audio@5.0.vendor \
-	android.hardware.audio.common@5.0-util.vendor \
-	android.hardware.audio.effect@5.0-impl
+	android.hardware.audio.common@5.0-util.vendor
 
 PRODUCT_PACKAGES += \
 	audio.a2dp.default \
