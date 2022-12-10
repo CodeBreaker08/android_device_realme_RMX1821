@@ -132,7 +132,7 @@ ro.vendor.mtk_embms_support=1
 
 # Surfaceflinger
 debug.sf.disable_backpressure=1
-ro.surface_flinger.primary_display_orientation=0
+ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 
 # Radio
 persist.vendor.radio.fd.counter=150
