@@ -145,6 +145,11 @@
         <fqname>@4.0::IBiometricsFingerprintRbs/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.mediatek.hardware.apuware.apusys</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INeuronApusys/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.atci</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IAtcid/default</fqname>
