@@ -255,6 +255,10 @@ PRODUCT_PACKAGES += \
 	multi_init.rc \
 	ueventd.mt6771.rc
 
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Seccomp Policy
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
