@@ -199,6 +199,17 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Radio
+PRODUCT_PACKAGES += \
+	android.hardware.radio@1.0.vendor \
+	android.hardware.radio@1.1.vendor \
+	android.hardware.radio@1.2.vendor \
+	android.hardware.radio@1.3.vendor \
+	android.hardware.radio@1.4.vendor \
+	android.hardware.radio.config@1.0.vendor \
+	android.hardware.radio.config@1.1.vendor \
+	android.hardware.radio.config@1.2.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
 	factory_init.connectivity.rc \
