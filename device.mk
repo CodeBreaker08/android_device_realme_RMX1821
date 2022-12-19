@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.sensors@2.0.vendor \
 	android.frameworks.sensorservice@1.0.vendor
 
+# Shims
+PRODUCT_PACKAGES += \
+	libshim_vtservice
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
 	$(DEVICE_PATH)
