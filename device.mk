@@ -10,6 +10,10 @@ $(call inherit-product, vendor/realme/RMX1821/RMX1821-vendor.mk)
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 28
 
+# APN
+PRODUCT_PACKAGES += \
+	$(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
 	android.hardware.audio@2.0.vendor \
