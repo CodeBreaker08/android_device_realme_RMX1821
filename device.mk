@@ -288,6 +288,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
 	$(DEVICE_PATH)
 
+# Soundtrigger
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.2-impl
+
 # Text classifier
 PRODUCT_PACKAGES += \
     libtextclassifier_hash.vendor
