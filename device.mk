@@ -7,6 +7,9 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/realme/RMX1821/RMX1821-vendor.mk)
 
+# PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Audio
 PRODUCT_PACKAGES += \
 	android.hardware.audio@5.0 \
