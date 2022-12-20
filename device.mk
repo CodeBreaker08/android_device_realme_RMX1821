@@ -12,11 +12,13 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Audio
 PRODUCT_PACKAGES += \
-	android.hardware.audio@5.0 \
-	android.hardware.audio.common@5.0-util \
-	android.hardware.audio.effect@5.0-impl \
-	android.hardware.soundtrigger@2.2-impl \
-	android.hardware.audio@4.0 \
+	android.hardware.audio@2.0.vendor \
+	android.hardware.audio@4.0.vendor \
+	android.hardware.audio@5.0.vendor \
+	android.hardware.audio.common@5.0-util.vendor \
+	android.hardware.audio.effect@5.0-impl
+
+PRODUCT_PACKAGES += \
 	audio.a2dp.default \
 	audio.bluetooth.default \
 	audio.r_submix.default \
