@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-	android.hardware.light@2.0-service.RMX1821
+	android.hardware.light-service.RMX1821
 
 # Media
 PRODUCT_COPY_FILES += \
