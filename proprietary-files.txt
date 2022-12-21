@@ -1156,7 +1156,6 @@ vendor/lib64/mediadrm/libwvdrmengine.so|841c6d91f8dba600936f2b9b831e2ae2cdcee8d7
 vendor/lib64/libwvhidl.so|b0626425e9a67c3d28e7bf002761b4e95a732c48
 
 # Display
-vendor/lib/libdpframework.so
 vendor/lib/libged.so
 vendor/lib/libgpu_aux.so
 vendor/lib/libgpud.so
@@ -1167,7 +1166,6 @@ vendor/lib/libminiui.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpq_prot.so
-vendor/lib64/libdpframework.so
 vendor/lib64/libged.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpud.so
@@ -1178,6 +1176,10 @@ vendor/lib64/libminiui.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
+
+# Display - from full_oppo6771-user 10 QP1A.190711.020 08805472cb0b87b3 release-keys
+vendor/lib/libdpframework.so|48b164fe321581c7f379e40891c0f8f6f626557f
+vendor/lib64/libdpframework.so|0e5f5e3f2955201a1ddd457bd1805cc08d085650
 
 # Display-Hardware
 vendor/bin/hw/android.hardware.memtrack@1.0-service
