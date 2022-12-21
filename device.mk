@@ -165,6 +165,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+	CarrierConfigOverlayRMX1821 \
 	FrameworksResOverlayRMX1821 \
 	SystemUIOverlayRMX1821 \
 	TelephonyOverlayRMX1821 \
