@@ -26,4 +26,9 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX1821
 PRODUCT_MANUFACTURER := Realme
 
+# Build info
+BUILD_FINGERPRINT := "google/redfin/redfin:13/TQ1A.221205.011/9244662:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="redfin-user 13 TQ1A.221205.011 9244662 release-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
