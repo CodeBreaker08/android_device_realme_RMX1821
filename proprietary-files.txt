@@ -1965,7 +1965,7 @@ vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
 # WiFi
 -framework/mtk-wifi-service.jar
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
-vendor/bin/hw/hostapd
+vendor/bin/hw/hostapd|9ed3fde081331a0e71a705c3a7b45d385bf491c7
 vendor/bin/hw/wpa_supplicant
 vendor/bin/hostapd_cli
 vendor/bin/stp_dump3

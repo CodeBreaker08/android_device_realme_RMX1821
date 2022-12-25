@@ -65,6 +65,9 @@ function blob_fixup {
         vendor/bin/hw/wpa_supplicant)
             "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
             ;;
+        vendor/bin/hw/hostapd)
+            "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
+            ;;
         vendor/lib/hw/audio.primary.mt6771.so)
             "${PATCHELF}" --replace-needed "libxml2.so" "libxml2-v29.so" "${2}"
             "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
