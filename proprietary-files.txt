@@ -1482,16 +1482,7 @@ vendor/bin/rpmbengclient_test
 vendor/etc/mtk_omx_core.cfg
 vendor/lib/libBnMtkCodec.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
-vendor/lib/libMtkOmxAdpcmDec.so
-vendor/lib/libMtkOmxAlacDec.so
-vendor/lib/libMtkOmxApeDec.so
-vendor/lib/libMtkOmxCore.so
 vendor/lib/libMtkOmxG711Dec.so
-vendor/lib/libMtkOmxGsmDec.so
-vendor/lib/libMtkOmxMp3Dec.so
-vendor/lib/libMtkOmxVdecEx.so
-vendor/lib/libMtkOmxVenc.so
-vendor/lib/libMtkOmxWmaDec.so
 vendor/lib/libavcodec.so
 vendor/lib/libavformat.so
 vendor/lib/libavutil.so
@@ -1521,7 +1512,6 @@ vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib64/libBnMtkCodec.so
-vendor/lib64/libMtkOmxCore.so
 vendor/lib64/libacdk.so
 vendor/lib64/libavcodec.so
 vendor/lib64/libavformat.so
@@ -1667,6 +1657,18 @@ vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
+
+# OMX - from sys_oplus_mssi_64_cn-user 11 RP1A.200720.011 1654541373743 release-keys
+vendor/lib/libMtkOmxAdpcmDec.so|1edc44eaa70588184f0a7eef33d919c8fe515844
+vendor/lib/libMtkOmxAlacDec.so|6c03ac1631f1219db51786b8e616d8958f516dd7
+vendor/lib/libMtkOmxApeDec.so|da09957e8430f5e4e1e169b49f02ec3066a5419e
+vendor/lib/libMtkOmxCore.so|fcef79f5140960f2efb6305face8379bff44aac8
+vendor/lib/libMtkOmxGsmDec.so|f38ae4c8b7dbb1427f47911643142f060f2bc40d
+vendor/lib/libMtkOmxMp3Dec.so|458ff22c814a5c63f48cf991a2755e53c1deb484
+vendor/lib/libMtkOmxVdecEx.so|162ed052cd98367f0cbb5957b7cc3fe74195068b
+vendor/lib/libMtkOmxVenc.so|d2f86cf6edc47389134cac1a8c22afcd45bb5a9c
+vendor/lib/libMtkOmxWmaDec.so|5e44e85d557cda8deb574e421bb0fe3d2f86ad1c
+vendor/lib64/libMtkOmxCore.so|3691db3abf1ea3a6a0a6eaf05f7ac3fc8f33cf8a
 
 # Oppo
 vendor/bin/hw/vendor.oppo.engnative.engineer@1.0-service
