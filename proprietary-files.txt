@@ -1135,11 +1135,6 @@ vendor/etc/security/cacerts_supl/lab/ef4b31e6.0
 vendor/etc/security/ck.fs
 vendor/etc/security/pl.fs
 
-# Charger
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
-lib/libshowlogo.so
-
 # DRM - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2111301522:user/release-keys
 vendor/lib/libprotobuf-cpp-lite-3.9.1.so|5f8fd527949e39d6f611be46ab2e9830c841a3da
 vendor/lib64/libprotobuf-cpp-lite-3.9.1.so|63a553bac5a0d30e0a33e4d6db90a619a49930bc
