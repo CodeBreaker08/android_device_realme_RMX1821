@@ -1351,6 +1351,7 @@ vendor/lib64/libOpenCL.so
 
 # IMS
 bin/vtservice
+etc/apns-conf.xml:product/etc/apns-conf.xml
 etc/init/init.vtservice.rc
 lib/vendor.mediatek.hardware.videotelephony@1.0.so
 lib/libcomutils.so
