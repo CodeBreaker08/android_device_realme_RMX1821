@@ -34,4 +34,7 @@
     <!-- Default for Settings.Secure.WAKE_GESTURE_ENABLED -->
     <bool name="def_wake_gesture_enabled">false</bool>
 
+    <!-- Default for Settings.System.VIBRATE_IN_SILENT -->
+    <bool name="def_vibrate_in_silent">false</bool>
+
 </resources>
