@@ -21,6 +21,9 @@
     <!-- Disable UI touch sounds by default -->
     <bool name="def_sound_effects_enabled">false</bool>
 
+    <!-- Disable auto brightness  -->
+    <bool name="def_screen_brightness_automatic_mode">false</bool>
+
     <!-- Set Default Animation Scale  -->
     <fraction name="def_window_animation_scale">70%</fraction>
     <fraction name="def_window_transition_scale">70%</fraction>
