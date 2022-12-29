@@ -1177,13 +1177,10 @@ vendor/lib/libdpframework.so|48b164fe321581c7f379e40891c0f8f6f626557f
 vendor/lib64/libdpframework.so|0e5f5e3f2955201a1ddd457bd1805cc08d085650
 
 # Display-Hardware
-vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.mt6771.so
 vendor/lib/hw/memtrack.mt6771.so
@@ -1193,7 +1190,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib/vendor.mediatek.hardware.pq@2.3.so
-vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.mt6771.so
 vendor/lib64/hw/hwcomposer.mt6771.so
