@@ -18,7 +18,8 @@ PRODUCT_PACKAGES += \
 	android.hardware.audio@2.0.vendor \
 	android.hardware.audio@4.0.vendor \
 	android.hardware.audio@5.0.vendor \
-	android.hardware.audio.common@5.0-util.vendor
+	android.hardware.audio.common@5.0-util.vendor \
+	android.hardware.bluetooth.audio@2.0-impl
 
 PRODUCT_PACKAGES += \
 	audio.a2dp.default \
