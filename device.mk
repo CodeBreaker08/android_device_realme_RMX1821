@@ -301,6 +301,11 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
 	$(DEVICE_PATH)/configs/seccomp/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy
 
+# Secure Element
+PRODUCT_PACKAGES += \
+	android.hardware.secure_element@1.0.vendor \
+	android.hardware.secure_element@1.1.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
 	android.hardware.sensors@1.0.vendor \
