@@ -26,6 +26,9 @@ PRODUCT_PACKAGES += \
 	audio.bluetooth.default \
 	audio.r_submix.default \
 	audio.usb.default \
+	audio_policy.stub
+
+PRODUCT_PACKAGES += \
 	libaudiopreprocessing \
 	libtinycompress \
 	libtinyxml
