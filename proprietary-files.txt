@@ -1990,36 +1990,17 @@ vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so
 
 # Misc
 vendor/bin/autobt
-vendor/bin/bc
 vendor/bin/climax
 vendor/bin/climax_v6
 vendor/bin/dconfig
-vendor/bin/devmem
 vendor/bin/dtc_vendor
-vendor/bin/dumpsys
 vendor/bin/em_hidl
 vendor/bin/factory
-vendor/bin/fsync
-vendor/bin/getconf
 vendor/bin/hw/power_legacy_test_v_1_0
 vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/i2cdetect
-vendor/bin/i2cdump
-vendor/bin/i2cget
-vendor/bin/i2cset
-vendor/bin/iconv
-vendor/bin/install
 vendor/bin/loghidlvendorservice
 vendor/bin/meta_tst
-vendor/bin/nc
-vendor/bin/netcat
-vendor/bin/nproc
-vendor/bin/nsenter
 vendor/bin/ppl_agent
-vendor/bin/unlink
-vendor/bin/unshare
-vendor/bin/uuidgen
-vendor/bin/watch
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/a2dp_in_audio_policy_configuration.xml
 vendor/etc/asd/class.tflite
