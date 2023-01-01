@@ -47,7 +47,7 @@ dalvik.vm.heapgrowthlimit=384m
 dalvik.vm.heapsize=512m
 
 # Display
-ro.sf.lcd_density=320
+ro.sf.lcd_density=280
 ro.vendor.mtk_pq_support=2
 ro.vendor.mtk_pq_color_mode=1
 ro.vendor.mtk_wfd_support=1
