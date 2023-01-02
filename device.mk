@@ -275,10 +275,6 @@ PRODUCT_PACKAGES += \
 	init.sensor_1_0.rc \
 	ueventd.mt6771.rc
 
-# RenderScript
-PRODUCT_PACKAGES += \
-	android.hardware.renderscript@1.0-impl
-
 # RcsService
 PRODUCT_PACKAGES += \
 	RcsService
