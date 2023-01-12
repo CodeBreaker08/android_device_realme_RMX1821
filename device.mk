@@ -94,10 +94,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	android.hardware.biometrics.fingerprint@2.1-service.RMX1821
 
-# FSTAB
-PRODUCT_COPY_FILES += \
-	$(DEVICE_PATH)/rootdir/etc/fstab.mt6771:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6771
-
 # Gatekeeper
 PRODUCT_PACKAGES += \
 	android.hardware.gatekeeper@1.0-service \
@@ -274,6 +270,7 @@ PRODUCT_PACKAGES += \
 	factory_init.project.rc \
 	factory_init.rc \
 	fstab.mt6771 \
+	fstab.mt6771_ramdisk \
 	init.ago.rc \
 	init.connectivity.rc \
 	init.modem.rc \
