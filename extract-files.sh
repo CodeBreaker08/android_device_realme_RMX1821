@@ -78,6 +78,9 @@ function blob_fixup {
         vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so)
             "${PATCHELF}" --replace-needed "android.hardware.audio.common@5.0-util.so" "android.hardware.audio.common@5.0-util-v29.so" "${2}"
             ;;
+        vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
     esac
 }
 

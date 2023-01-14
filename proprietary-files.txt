@@ -1205,7 +1205,7 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.mt6771.so
 vendor/lib64/hw/hwcomposer.mt6771.so
 vendor/lib64/hw/memtrack.mt6771.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so|4620a7b31f7723289bce2db5ecfe1946a2c8574b
 vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
