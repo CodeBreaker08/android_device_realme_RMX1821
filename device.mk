@@ -267,7 +267,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
 	fstab.mt6771 \
-	fstab.mt6771_ramdisk \
+	fstab.mt6771.ramdisk \
 	init.connectivity.rc \
 	init.modem.rc \
 	init.mt6771.rc \
