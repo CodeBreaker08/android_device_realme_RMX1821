@@ -1,2 +1,5 @@
 # Device info
 type proc_oppo_devinfo, fs_type, proc_type;
+
+# OppoVersion
+type proc_oppoversion, fs_type, proc_type;

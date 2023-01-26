@@ -1,2 +1,5 @@
 # Device info
 genfscon proc /devinfo                                        u:object_r:proc_oppo_devinfo:s0
+
+# OppoVersion
+genfscon proc /oppoVersion                                    u:object_r:proc_oppoversion:s0

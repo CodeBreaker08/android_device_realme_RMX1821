@@ -1,0 +1,2 @@
+# Allow wmt_loader to read /proc/oppoVersion
+allow wmt_loader proc_oppoversion:file r_file_perms;
