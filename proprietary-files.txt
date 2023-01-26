@@ -1268,17 +1268,6 @@ vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_PLS_PS_ONLY.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_SlimLog_DspAllOff.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin
-vendor/firmware/emmc/HYNIX-hB8aP>.bin_crc.bin
-vendor/firmware/emmc/HYNIX-HCG8a4.bin_crc.bin
-vendor/firmware/emmc/move_target_emmc_fw_to_opporeserve1.sh
-vendor/firmware/emmc/move_target_emmc_fw_to_reserve4.sh
-vendor/firmware/emmc/SAMSUNG-3H6CMB.bin_crc.bin
-vendor/firmware/emmc/SAMSUNG-DD68MB.bin_crc.bin
-vendor/firmware/emmc/SAMSUNG-DH6DMB.bin_crc.bin
-vendor/firmware/emmc/SAMSUNG-GD6BMB.bin_crc.bin
-vendor/firmware/emmc/SAMSUNG-RD64MB.bin_crc.bin
-vendor/firmware/emmc/SAMSUNG-RH64AB.bin_crc.bin
-vendor/firmware/emmc/SAMSUNG-RH64MB.bin_crc.bin
 vendor/firmware/em_filter_1_ulwctg_n.bin
 vendor/firmware/fm_cust.cfg
 vendor/firmware/gt1151_default_firmware2.img
