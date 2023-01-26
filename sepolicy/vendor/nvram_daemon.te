@@ -1,2 +1,5 @@
 # Allow nvram_daemon to read /proc/oppoVersion
 allow nvram_daemon proc_oppoversion:file r_file_perms;
+
+# Allow nvram_daemon to read /proc/oppoCustom/Sensor
+allow nvram_daemon proc_oppocustom_sensor:file r_file_perms;

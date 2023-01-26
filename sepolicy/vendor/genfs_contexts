@@ -3,3 +3,6 @@ genfscon proc /devinfo                                        u:object_r:proc_op
 
 # OppoVersion
 genfscon proc /oppoVersion                                    u:object_r:proc_oppoversion:s0
+
+# OppoCustom Sensor
+genfscon proc /oppoCustom/Sensor                              u:object_r:proc_oppocustom_sensor:s0

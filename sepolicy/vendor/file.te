@@ -3,3 +3,6 @@ type proc_oppo_devinfo, fs_type, proc_type;
 
 # OppoVersion
 type proc_oppoversion, fs_type, proc_type;
+
+# OppoCustom Sensor
+type proc_oppocustom_sensor, fs_type, proc_type;
