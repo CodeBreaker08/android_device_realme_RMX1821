@@ -1,0 +1,2 @@
+# Allow mtk_hal_audio to set vendor_audio_trnning_prop
+set_prop(mtk_hal_audio, vendor_audio_tunning_prop)
