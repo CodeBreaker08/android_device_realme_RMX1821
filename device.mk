@@ -134,10 +134,6 @@ PRODUCT_PACKAGES += \
 	android.hardware.keymaster@3.0-impl \
 	android.hardware.keymaster@3.0-service
 
-PRODUCT_PACKAGES += \
-	libkeymaster3.vendor \
-	libkeymaster3support.vendor
-
 # Libxml2
 PRODUCT_PACKAGES += \
 	libxml2.vendor
