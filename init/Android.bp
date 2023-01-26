@@ -15,10 +15,12 @@
 cc_library_static {
     name: "libinit_RMX1821",
     recovery_available: true,
-    shared_libs: ["libbase"],
+    whole_static_libs: ["libbase"],
+    header_libs: [
+        "libbase_headers",
+    ],
     srcs: ["init_RMX1821.cpp"],
     include_dirs: [
-        "system/core/base/include",
         "system/core/init"
     ]
 }
