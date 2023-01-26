@@ -1,2 +1,13 @@
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.RMX1821                                            u:object_r:hal_light_default_exec:s0
+
+# EGIS Fingerprint device
+/dev/esfp0  u:object_r:egis_device:s0  
+
+# Silead Fingerprint device
+/dev/silead_fp  u:object_r:silead_device:s0
+
+# Biometrics
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.RMX1821                     u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.oppo\.hardware\.biometrics\.fingerprint@2\.1-service                         u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.silead\.hardware\.fingerprintext@1\.0-service                                u:object_r:hal_fingerprint_default_exec:s0
