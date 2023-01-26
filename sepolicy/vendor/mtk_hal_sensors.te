@@ -1,2 +1,3 @@
 # Allow mtk_hal_sensors to read /proc/oppoVersion
 allow mtk_hal_sensors proc_oppoversion:file r_file_perms;
+allow mtk_hal_sensors proc_oppoversion:dir search;
