@@ -1,0 +1,2 @@
+# Allow mtk_hal_pq to read /proc/devinfo
+allow mtk_hal_pq proc_oppo_devinfo:file r_file_perms;
