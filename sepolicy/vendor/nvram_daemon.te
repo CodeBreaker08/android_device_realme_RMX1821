@@ -1,0 +1,2 @@
+# Allow nvram_daemon to read /proc/oppoVersion
+allow nvram_daemon proc_oppoversion:file r_file_perms;
