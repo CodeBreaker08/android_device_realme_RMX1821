@@ -79,6 +79,18 @@ void set_ro_build_prop(const std::string &prop, const std::string &value, bool p
     }
 }
 
+void init_fp_properties()
+{
+    char const *fp_name_file = "/proc/fp_id";
+    std::string fp_name;
+
+    if (ReadFileToString(fp_name_file, &fp_name)) {
+        if (fp_name == "E_520") {
+            property_override("persist.vendor.fingerprint.fp_id", "E_520");
+        }
+    }
+}
+
 void vendor_load_properties() {
     char const *operator_file = "/proc/oppoVersion/operatorName";
     string operator_name;
@@ -114,4 +126,7 @@ void vendor_load_properties() {
     set_ro_build_prop("model", model);
     set_ro_build_prop("name", model);
     set_ro_build_prop("product", model, false);
+
+    // Fingerprint 
+    init_fp_properties();
 }

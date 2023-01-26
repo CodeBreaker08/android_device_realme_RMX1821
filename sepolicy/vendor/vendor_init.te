@@ -1,2 +1,6 @@
 # Allow vendor_init to read props
 get_prop(vendor_init, vts_status_prop)
+
+# Allow vendor init to access persist.vendor.fingerprint.fp_id
+get_prop(vendor_init, oppo_fingerprint_prop) 
+set_prop(vendor_init, oppo_fingerprint_prop) 

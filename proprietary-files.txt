@@ -1263,6 +1263,9 @@ vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so
 
+# Fingerprint - from moto_troika 9/PSB29.105-27/fd362:user/release-keys
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs|ad879e7ed06f50c804e79fb9312614c4fdef49e5
+
 # Firmware
 vendor/firmware/BT_FW.cfg
 vendor/firmware/catcher_filter_1_ulwctg_n.bin
