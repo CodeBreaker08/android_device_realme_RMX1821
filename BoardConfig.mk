@@ -114,6 +114,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
