@@ -3,3 +3,7 @@ type vendor_audio_tunning_prop, property_type;
 
 # Oppo props
 type oppo_fingerprint_prop, property_type;
+
+# RILD
+type imsi_prop, property_type;
+type oppo_network_prop, property_type;
