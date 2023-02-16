@@ -1049,3 +1049,9 @@ on boot
     chown system system /sys/class/power_supply/usb/otg_switch
     chmod 0666 /sys/class/power_supply/usb/otg_switch
     write /sys/class/power_supply/usb/otg_switch 1
+
+# Disable edge limit control interface
+    write /proc/touchpanel/oppo_tp_limit_enable 0
+
+# Enable oppo touchpanel direction
+    write /proc/touchpanel/oppo_tp_direction 1
