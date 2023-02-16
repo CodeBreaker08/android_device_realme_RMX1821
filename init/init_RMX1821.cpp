@@ -109,7 +109,12 @@ void vendor_load_properties() {
      */
     if (ReadFileToString(operator_file, &operator_name)) {
         // Realme 3
-        if (Trim(operator_name) == "133") {
+        if (Trim(operator_name) == "130") {
+            device = "RMX1821";
+            model = "RMX1821";
+        }
+        // Realme 3
+        else if (Trim(operator_name) == "133") {
             device = "RMX1825";
             model = "RMX1825";
         }
