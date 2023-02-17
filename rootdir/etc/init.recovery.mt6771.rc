@@ -1,0 +1,5 @@
+on init
+    setprop sys.usb.configfs 1
+
+    # OTG
+    write /sys/class/power_supply/usb/otg_switch 1
