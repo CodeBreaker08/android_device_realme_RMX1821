@@ -7,3 +7,6 @@ type oppo_fingerprint_prop, property_type;
 # RILD
 type imsi_prop, property_type;
 type oppo_network_prop, property_type;
+
+# Mediacodec
+type dalvik_vm_config_prop, property_type;
