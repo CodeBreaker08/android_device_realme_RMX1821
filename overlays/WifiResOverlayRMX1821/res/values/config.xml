@@ -24,6 +24,9 @@
     <!-- Config SoftAP 2G channel list -->
     <string name="config_wifi_framework_sap_2G_channel_list">0</string>
 
+     <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
+
     <!-- string indicating the OUI that should be used when generating random mac addresses -->
     <string name="config_wifi_random_mac_oui">00-0C-E7</string>
 </resources>
