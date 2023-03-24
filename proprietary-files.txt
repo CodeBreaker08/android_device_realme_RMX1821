@@ -204,32 +204,6 @@ vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/audio_device.xml
 vendor/etc/test_path/common/mixer_paths.xml
 
-# Audio-Soundfx
-vendor/etc/dirac/17061/diracmobile.config
-vendor/etc/dirac/17061/diracvdd.bin
-vendor/etc/dirac/17197/diracmobile.config
-vendor/etc/dirac/17197/diracvdd.bin
-vendor/etc/dirac/17331/diracmobile.config
-vendor/etc/dirac/17331/diracvdd.bin
-vendor/etc/dirac/18161/diracmobile.config
-vendor/etc/dirac/18161/diracvdd.bin
-vendor/etc/dirac/18311/diracmobile.config
-vendor/etc/dirac/18311/diracvdd.bin
-vendor/etc/dirac/18531/diracmobile.config
-vendor/etc/dirac/18531/diracvdd.bin
-vendor/etc/dirac/18601/diracmobile.config
-vendor/etc/dirac/18601/diracvdd.bin
-vendor/etc/dirac/18611/diracmobile.config
-vendor/etc/dirac/18611/diracvdd.bin
-vendor/etc/dirac/19661/diracmobile.config
-vendor/etc/dirac/19661/diracvdd.bin
-vendor/etc/dirac/20671/diracmobile.config
-vendor/etc/dirac/20671/diracvdd.bin
-vendor/etc/diracmobile.config
-vendor/etc/diracvdd.bin
-vendor/lib/soundfx/libdirac.so
-vendor/lib/libDiracAPI_SHARED.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
 vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
