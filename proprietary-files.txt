@@ -1423,8 +1423,6 @@ vendor/lib64/libstagefrighthw.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 
 # Mediatek
-vendor/bin/hw/vendor.mediatek.hardware.log@1.0-service
-vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc
 vendor/lib/libmtkcam.atmseventmgr.so
 vendor/lib/libmtkcam.eventcallback.so
 vendor/lib/libmtkcam_debugutils.so
@@ -1486,7 +1484,6 @@ vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/libmtk_drvb.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
-vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pplagent@1.0.so
 
 # Neural-networks - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2111301522:user/release-keys
@@ -1867,7 +1864,6 @@ vendor/bin/em_hidl
 vendor/bin/factory
 vendor/bin/hw/power_legacy_test_v_1_0
 vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/loghidlvendorservice
 vendor/bin/meta_tst
 vendor/bin/ppl_agent
 vendor/data/misc/ProjectConfig.mk
@@ -1879,7 +1875,6 @@ vendor/etc/DRIVER.ISO
 vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/init/em_hidl_user.rc
-vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/ppl_agent.rc
 vendor/etc/init/self-init.rc
 vendor/etc/ncf_pack.ncf
