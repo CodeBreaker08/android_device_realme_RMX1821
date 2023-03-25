@@ -14,6 +14,9 @@ pm.dexopt.first-boot=quicken
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.dex2oat-threads=6
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # IMS 
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
