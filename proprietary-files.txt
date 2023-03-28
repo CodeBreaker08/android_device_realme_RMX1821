@@ -1365,7 +1365,7 @@ vendor/lib/libMtkOmxCore.so
 vendor/lib/libMtkOmxG711Dec.so
 vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
-vendor/lib/libMtkOmxVdecEx.so
+vendor/lib/libMtkOmxVdecEx.so|7f0f506b67a3a2f6d788786708723b30a6887846
 vendor/lib/libMtkOmxVenc.so
 vendor/lib/libMtkOmxWmaDec.so
 vendor/lib/libavcodec.so
