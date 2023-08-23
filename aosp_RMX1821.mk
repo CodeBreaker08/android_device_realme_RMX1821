@@ -14,7 +14,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from RMX1821 device makefile
 $(call inherit-product, device/realme/RMX1821/device.mk)
 
-
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
