@@ -68,6 +68,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.camera.provider@2.4.vendor \
 	android.hardware.camera.provider@2.5.vendor
 
+PRODUCT_PACKAGES += \
+    GrapheneCamera
+
+
 # Display
 PRODUCT_PACKAGES += \
 	android.hardware.graphics.allocator@2.0-impl \
