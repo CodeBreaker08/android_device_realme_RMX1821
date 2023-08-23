@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GrapheneCamera
 
-
 # Display
 PRODUCT_PACKAGES += \
 	android.hardware.graphics.allocator@2.0-impl \
@@ -287,6 +286,10 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_PACKAGES += \
 	init.recovery.mt6771.rc
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Seccomp Policy
 PRODUCT_COPY_FILES += \
